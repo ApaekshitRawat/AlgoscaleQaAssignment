@@ -3,7 +3,7 @@
 
 o(*￣︶￣*)o
 ## About 
-In this enterprise level framework built on Java/Selenium/Testng, I have added all sorts of functionalites which were not really neeeded for this assesment but for future scalablity I added like HTML Report generation after Test runs(you can check that in report folder) , Utility to get data from a Json file and parse it into our Tests for Data driven Automation support , Thread Safe execution , Page Object Model implementation , Jenkins Integration , CrossBrowser testing support , and TestRunner on the basis of Profiles created like for example Smoke.
+In this enterprise level framework built on Java/Selenium/Testng, I have added all sorts of functionalites which were not really neeeded for this assesment but for future scalablity I added like HTML Report generation after Test runs(you can check that in report folder) , Utility to get data from a Json file and parse it into our Tests for Data driven Automation support , Thread Safe execution , Page Object Model implementation , Jenkins Integration , CrossBrowser testing support, headless execution in chrome , and TestRunner on the basis of Profiles created like for example Smoke.
 
 
 ## Getting Started
@@ -49,10 +49,10 @@ Running Tests in Eclipse IDE
 If you prefer not to use the terminal, you can simply run the TestNG XML files located in the root directory of your Eclipse project.
 Built With
 
-Java - The programming language used
-Selenium WebDriver - The web framework used for automation
-TestNG - Testing framework
-Maven - Dependency Management
+- Java - The programming language used
+- Selenium WebDriver - The web framework used for automation
+- TestNG - Testing framework
+- Maven - Dependency Management
 
 Authors
 
