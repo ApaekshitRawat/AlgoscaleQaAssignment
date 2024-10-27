@@ -14,7 +14,7 @@ import com.aventstack.extentreports.Status;
 
 import resources.ExtentReporterNg;
 
-
+// Listeners Interface implemented to handle Html report generation and attaching logs to it
 
 public class Listeners extends BaseTest implements ITestListener {
 	ExtentReports extent = ExtentReporterNg.getReportObject();	
@@ -36,7 +36,7 @@ public class Listeners extends BaseTest implements ITestListener {
 		try {
 			driver = (WebDriver)result.getTestClass().getRealClass().getField("driver").get(result.getInstance());
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 		// Screenshot , Attach to the reporter
@@ -44,7 +44,7 @@ public class Listeners extends BaseTest implements ITestListener {
 		try {
 			filepath = getScreenShot(result.getMethod().getMethodName(),driver);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 		extentTest.get().addScreenCaptureFromPath(filepath,result.getMethod().getMethodName());
@@ -60,13 +60,13 @@ public class Listeners extends BaseTest implements ITestListener {
 	}
 	@Override		
     public void onFinish(ITestContext arg0) {					
-        // TODO Auto-generated method stub				
+        			
 		 extent.flush(); 		
     }		
 
     @Override		
     public void onStart(ITestContext arg0) {					
-        // TODO Auto-generated method stub				
+        				
        
     }		
 	

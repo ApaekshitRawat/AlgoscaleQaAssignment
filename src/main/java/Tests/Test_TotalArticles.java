@@ -12,7 +12,9 @@ import TestComponents.Retry;
 import data.DataReader;
 
 public class Test_TotalArticles extends BaseTest {
-
+	
+	//Test method in Test class which calls methods from the Page Object class and define logic
+	
 	@Test(dataProvider ="getData" , retryAnalyzer =Retry.class)
 	public void Test_TotalArticlesByLanguages(HashMap<String, String[]> input){
 		

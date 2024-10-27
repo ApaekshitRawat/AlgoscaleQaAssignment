@@ -28,7 +28,7 @@ import Pages.WebTablePage;
 
 
 
-
+// Base test class which have Driver initialization code , and common test functionalities
 public class BaseTest {
 	public WebDriver driver ;
 	public WebTablePage table;
@@ -67,6 +67,7 @@ public class BaseTest {
 
 	}
 	
+	// Common utility to deserilize a Json data into Hashmap , with input as File path
 	public List<HashMap<String, String>> getJsonDataToMap(String filePath) throws IOException {
 		// Read Json to string 
 		 String jsonContentString = FileUtils.readFileToString(new File(System.getProperty("user.dir")+filePath),StandardCharsets.UTF_8);
@@ -82,7 +83,7 @@ public class BaseTest {
 	}
 	
 	
-	
+	// Screenshot utility for when code failure is there
 	public String getScreenShot(String testCaseName , WebDriver driver) throws IOException {
 		TakesScreenshot ts = (TakesScreenshot)driver;
 		File sourceFile =  ts.getScreenshotAs(OutputType.FILE);

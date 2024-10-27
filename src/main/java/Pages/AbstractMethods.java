@@ -11,22 +11,20 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+
+// Abstract method class for common helper methods which can be utilised in Page Object classes
+
 public class AbstractMethods {
 
 	WebDriver driver;
 
 	public AbstractMethods(WebDriver driver) {
 		this.driver = driver;
-		// TODO Auto-generated constructor stub
+		
 	}
 
-	@FindBy(css = "li[title='Cart']")
-	WebElement Cart;
-	@FindBy(css = "[routerlink*='myorders']")
-	WebElement Order;
-
-	@FindBy(xpath = "//div[contains(@class, 'hasDropdown') and contains(., 'Brands')]")
-	WebElement brandsElement;
+	
+	// Common explicit wait utility which can be used in Page classes
 
 	public void waitForElementsToAppear(By findBy) {
 

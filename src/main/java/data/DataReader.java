@@ -12,7 +12,8 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class DataReader {
-
+	
+	// Data reader utility to read data from Json File and returning Object[][] 
 	public static List<HashMap<String, String[]>> getJsonDataToMap() throws IOException {
 		// Read Json to string 
 		 String jsonContentString = FileUtils.readFileToString(new File(System.getProperty("user.dir")+"\\src\\main\\java\\data\\LanguageInputData.json"),StandardCharsets.UTF_8);

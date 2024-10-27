@@ -4,7 +4,7 @@ package resources;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
-
+// Extent Report Logic Utility
 public class ExtentReporterNg {
 	
 	public static ExtentReports getReportObject() {
