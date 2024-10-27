@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-27T14:19:07 IST" name="Suite" finished-at="2024-10-27T14:19:25 IST" duration-ms="18039">
+    <groups>
+    </groups>
+    <test started-at="2024-10-27T14:19:07 IST" name="Test" finished-at="2024-10-27T14:19:25 IST" duration-ms="18039">
+      <class name="Tests.Test_TotalArticles">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.Test_TotalArticles@4007f65e]" started-at="2024-10-27T14:19:07 IST" name="launchApplication" finished-at="2024-10-27T14:19:12 IST" duration-ms="4673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="Test_TotalArticlesByLanguages(java.util.HashMap)[pri:0, instance:Tests.Test_TotalArticles@4007f65e]" started-at="2024-10-27T14:19:12 IST" name="Test_TotalArticlesByLanguages" data-provider="getData" finished-at="2024-10-27T14:19:12 IST" duration-ms="199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=[Ljava.lang.String;@30feffc, language=[Ljava.lang.String;@67207d8a}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_TotalArticlesByLanguages -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.Test_TotalArticles@4007f65e]" started-at="2024-10-27T14:19:12 IST" name="tearDown" finished-at="2024-10-27T14:19:12 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.Test_TotalArticles@4007f65e]" started-at="2024-10-27T14:19:12 IST" name="launchApplication" finished-at="2024-10-27T14:19:16 IST" duration-ms="4084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="Test_TotalArticlesByLanguages(java.util.HashMap)[pri:0, instance:Tests.Test_TotalArticles@4007f65e]" started-at="2024-10-27T14:19:16 IST" name="Test_TotalArticlesByLanguages" data-provider="getData" finished-at="2024-10-27T14:19:16 IST" duration-ms="257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=[Ljava.lang.String;@66596a88, language=[Ljava.lang.String;@5aae8eb5}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_TotalArticlesByLanguages -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.Test_TotalArticles@4007f65e]" started-at="2024-10-27T14:19:16 IST" name="tearDown" finished-at="2024-10-27T14:19:17 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.Test_TotalArticles@4007f65e]" started-at="2024-10-27T14:19:17 IST" name="launchApplication" finished-at="2024-10-27T14:19:21 IST" duration-ms="3992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="Test_TotalArticlesByLanguages(java.util.HashMap)[pri:0, instance:Tests.Test_TotalArticles@4007f65e]" started-at="2024-10-27T14:19:21 IST" name="Test_TotalArticlesByLanguages" data-provider="getData" finished-at="2024-10-27T14:19:21 IST" duration-ms="211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=[Ljava.lang.String;@7ec58feb, language=[Ljava.lang.String;@1dbb650b}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_TotalArticlesByLanguages -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.Test_TotalArticles@4007f65e]" started-at="2024-10-27T14:19:21 IST" name="tearDown" finished-at="2024-10-27T14:19:21 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.Test_TotalArticles@4007f65e]" started-at="2024-10-27T14:19:21 IST" name="launchApplication" finished-at="2024-10-27T14:19:25 IST" duration-ms="3720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="Test_TotalArticlesByLanguages(java.util.HashMap)[pri:0, instance:Tests.Test_TotalArticles@4007f65e]" started-at="2024-10-27T14:19:25 IST" name="Test_TotalArticlesByLanguages" data-provider="getData" finished-at="2024-10-27T14:19:25 IST" duration-ms="123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=[Ljava.lang.String;@58a120b0, language=[Ljava.lang.String;@27d57a2c}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_TotalArticlesByLanguages -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.Test_TotalArticles@4007f65e]" started-at="2024-10-27T14:19:25 IST" name="tearDown" finished-at="2024-10-27T14:19:25 IST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.Test_TotalArticles -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

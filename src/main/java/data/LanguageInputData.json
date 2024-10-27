@@ -1,0 +1,18 @@
+[
+  {
+    "language": ["English"],
+    "total": ["6562386"]
+  },
+  {
+    "language": ["English","German"],
+    "total": ["9296269"]
+  },
+  {
+    "language": ["Chinese","Dutch"],
+    "total": ["3415677"]
+  },
+  {
+    "language": ["French","Italian"],
+    "total": ["4240219"]
+  }
+]
